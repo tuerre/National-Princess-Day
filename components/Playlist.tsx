@@ -20,7 +20,7 @@ const tracks: Track[] = [
     id: 1,
     title: 'Corazón de melón — Los Panchos',
     description:
-      'Dulce y clásica, como ese amor tierno que me recuerda a ti, Ishell. 💖',
+      'Dulce y clásica, como ese amor tierno que me recuerda a ti, mi shell. 💖',
     image: '/assets/music1.png',
     spotifyUrl:
       'https://open.spotify.com/track/7HSYmqzZHulD6UnvPHDJEt?si=RxQtJ8GGSoitTkcCeHMuRQ&utm_source=copy-link',
