@@ -49,7 +49,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
 
   return (
     <div className="page-container">
-      <div className="font-display min-h-screen flex items-center justify-center py-10 px-4 bg-[#FFF4F8] relative overflow-hidden">
+      <div className="font-display min-h-screen flex items-center justify-center py-10 px-4 bg-[#FFF4F8] relative">
         <div className="pointer-events-none absolute inset-0 z-0">
           <div className="absolute inset-0 grid-paper"></div>
           <svg

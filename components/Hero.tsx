@@ -28,7 +28,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
   if (isGiftOpened) return null;
 
   return (
-    <div className="app relative w-full min-h-screen overflow-hidden font-display">
+    <div className="app relative w-full min-h-screen font-display">
       {/* Dreamy background */}
       <div className="dreamy-bg" />
 
@@ -100,7 +100,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
       </div>
 
       {/* Main content */}
-      <div className="page-container relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 md:px-10">
+      <div className="page-container relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-10">
         {/* Decorative floating elements */}
         <svg
           className="absolute top-10 left-10 w-12 h-12 animate-float-slow"
