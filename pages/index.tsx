@@ -83,7 +83,7 @@ export default function Home() {
         <link rel="canonical" href="https://national-princess-day.vercel.app" />
       </Head>
 
-      <main className={isGiftOpened ? 'min-h-screen' : 'h-screen overflow-hidden'}>
+      <main className="h-screen overflow-hidden">
         {!isGiftOpened && (
           <Hero onOpenGift={handleOpenGift} isGiftOpened={isGiftOpened} />
         )}

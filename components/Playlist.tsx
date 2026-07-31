@@ -192,7 +192,7 @@ export default function Playlist({ onContinue }: PlaylistProps) {
 
               <div
                 ref={scrollContainerRef}
-                className="flex gap-4 overflow-x-auto scrollbar-hide px-14 py-2 justify-start"
+                className="flex gap-4 overflow-x-hidden scrollbar-hide px-14 py-2 justify-start"
                 style={{ scrollbarWidth: 'none' }}
               >
                 {tracks.map((track) => (

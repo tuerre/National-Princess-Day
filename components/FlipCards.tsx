@@ -186,7 +186,7 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
                     <div className="absolute w-full h-full bg-white rounded-lg border-2 border-pink-200 shadow-lg rotate-y-180 backface-hidden p-3 sm:p-4 flex flex-col justify-center">
                       <div className="text-center space-y-2 h-full flex flex-col justify-center">
                         <div className="flex-1 flex items-center justify-center">
-                          <div className="text-xs sm:text-sm leading-relaxed text-[#1b0d14] px-1 overflow-y-auto max-h-full">
+                          <div className="text-xs sm:text-sm leading-relaxed text-[#1b0d14] px-1 overflow-y-hidden max-h-full">
                             {card.message}
                           </div>
                         </div>
