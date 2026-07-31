@@ -30,7 +30,7 @@ const tracks: Track[] = [
     title: 'Gongoli — Álvaro Díaz',
     description:
       'Con vibra moderna y atrevida, igual de única y especial como tú. ✨',
-    image: '/assets/music2.png',
+    image: '/assets/IMG_6002.png',
     spotifyUrl:
       'https://open.spotify.com/track/1tqqMC9aITEAnp0MjWvVky?si=nNRqOiKxQyK_mYcyltZklA&utm_source=copy-link',
   },
@@ -39,7 +39,7 @@ const tracks: Track[] = [
     title: 'Con los dos en la cabeza — Pedro Guerra, Cruzzi',
     description:
       'Una canción que habla de llevar a alguien en la mente y el corazón, siempre. 🌙',
-    image: '/assets/music3.png',
+    image: '/assets/IMG_6001.png',
     spotifyUrl:
       'https://open.spotify.com/track/26LELuiC7gAN0IjILbam2I?si=gstYCagyRQq7mLfbIgkIMA&utm_source=copy-link',
   },
