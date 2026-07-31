@@ -182,7 +182,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              ¡Hola, Ishell! 💕
+              Princesa mía💕
             </motion.h1>
 
             <motion.div
