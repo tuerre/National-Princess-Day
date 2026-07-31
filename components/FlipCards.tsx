@@ -20,7 +20,7 @@ const cards: Card[] = [
   {
     id: 1,
     image: '/assets/pic1.png',
-    message: 'Te amo, Ishell 💕',
+    message: Eres el palito blanco de mi Nutella, mi estrellita. Te amo con mi vida, siempre seré el mejor para ti, haces que erize mi piel sin que la roces. 💕',
     gradient: 'from-pink-200 to-purple-200',
     delay: 0,
   },
