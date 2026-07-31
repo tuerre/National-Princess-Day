@@ -146,7 +146,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
           <div className="absolute -top-10 right-6 w-20 h-20 sm:w-24 sm:h-24 object-contain animate-bounce-slow">
             <Image
               src="/assets/intro-DzUiguR4.webp"
-              alt="Decorative princess day animation"
+              alt="Animación decorativa del día de la princesa"
               width={96}
               height={96}
               className="w-full h-full object-contain"
@@ -163,7 +163,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               <span className="w-3.5 h-3.5 rounded-full bg-[#b1f2b1] border border-[#92d992]"></span>
             </div>
             <p className="text-sm font-bold text-[#9a4c73] flex items-center gap-1">
-              A Note for You
+              Una nota para ti
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M12 21s-6-4.35-8.5-6.5C1.85 12.73 3 9 6 8c2.28-.75 3.5 1 6 1s3.72-1.75 6-1c3 1 4.15 4.73 2.5 6.5C18 16.65 12 21 12 21z"
@@ -182,7 +182,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Hey Princess! 💕
+              ¡Hola, Ishell! 💕
             </motion.h1>
 
             <motion.div
@@ -192,12 +192,12 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.4 }}
             >
               <p>
-                I Wanted to do something special for you, for this princess day,
-                so I made something special just for you...
+                Quise hacer algo especial para ti en este día de la princesa, así
+                que preparé algo hecho solo para ti...
               </p>
               <p className="pt-3">
                 <span className="font-semibold text-[#f04299]">
-                  Click below to see what it is! ✨
+                  ¡Haz clic abajo para descubrirlo! ✨
                 </span>
                 <span className="inline-block w-1.5 h-4 bg-[#f04299]/70 ml-1 animate-cursor"></span>
               </p>
@@ -211,9 +211,9 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.6 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              aria-label="Open my heart"
+              aria-label="Abrir mi corazón"
             >
-              Open My Heart 💖
+              Abre mi corazón 💖
             </motion.button>
 
             {/* Decorative element */}
@@ -223,7 +223,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
             >
               <Image
                 src="/assets/intro-BrJOTFFc.webp"
-                alt="Decorative princess illustration"
+                alt="Ilustración decorativa de princesa"
                 width={80}
                 height={80}
                 className="w-20 h-auto object-contain"

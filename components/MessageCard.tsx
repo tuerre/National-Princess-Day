@@ -36,11 +36,11 @@ export default function MessageCard({
       setShowLetter(true);
       // Start typewriter effects for stamp text after letter appears
       setTimeout(() => {
-        typeText('LOVE', 'love', () =>
+        typeText('AMOR', 'love', () =>
           setTypewriterComplete((prev) => ({ ...prev, love: true }))
         );
         setTimeout(() => {
-          typeText('STAMPED', 'stamped', () =>
+          typeText('SELLADA', 'stamped', () =>
             setTypewriterComplete((prev) => ({ ...prev, stamped: true }))
           );
         }, 800);
@@ -128,10 +128,10 @@ export default function MessageCard({
         <div className="flex items-center justify-center gap-2 mb-6 animate-slideDown">
           <div className="text-center">
             <h2 className="text-[#f04299] text-lg sm:text-xl font-bold leading-tight">
-              A Love Letter 💌
+              Una carta de amor 💌
             </h2>
             <div className="text-xs text-[#9a4c73] mt-1">
-              From my heart to yours
+              De mi corazón al tuyo
             </div>
           </div>
         </div>
@@ -184,10 +184,10 @@ export default function MessageCard({
 
                   <div className="text-center mt-6">
                     <p className="text-sm text-[#9a4c73] mb-2">
-                      Click to open the envelope
+                      Haz clic para abrir el sobre
                     </p>
                     <div className="inline-block px-4 py-2 bg-pink-50 rounded-full text-xs font-medium text-[#f04299] border border-pink-200 animate-pulse">
-                      Special Delivery 💌
+                      Entrega especial 💌
                     </div>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ export default function MessageCard({
                         >
                           <Image
                             src="/assets/letter-C680mUtz.webp"
-                            alt="Decorative love letter illustration"
+                            alt="Ilustración decorativa de carta de amor"
                             width={96}
                             height={96}
                             className="w-24 h-auto object-contain drop-shadow-lg"
@@ -277,7 +277,7 @@ export default function MessageCard({
                                 💝
                               </div>
                               <span className="text-sm font-semibold text-[#9a4c73]">
-                                My Sweetest Love
+                                Mi amor más dulce
                               </span>
                             </div>
                           </div>
@@ -285,23 +285,22 @@ export default function MessageCard({
                           {/* Letter body */}
                           <div className="handwriting text-sm sm:text-base leading-relaxed text-[#1b0d14] pb-20 pt-6">
                             <div className="mb-4 text-[#f04299] font-medium">
-                              My dearest Divya,
+                              Mi querida Ishell,
                             </div>
                             <div
                               className="mb-6 text-justify"
                               style={{ textIndent: '2rem' }}
                             >
-                              Every moment with you feels like a beautiful dream
-                              that I never want to wake up from. I want you to
-                              know that you are the most precious person in my
-                              life. Every day with you is a gift, and I&apos;m
-                              grateful for every second we share together. You
-                              make me want to be the best version of myself.
+                              Cada momento contigo se siente como un sueño bonito
+                              del que nunca quiero despertar. Quiero que sepas
+                              que eres la persona más valiosa de mi vida. Cada día
+                              a tu lado es un regalo y agradezco cada segundo que
+                              compartimos. Tú me inspiras a ser mi mejor versión.
                             </div>
                             <div className="mt-8 ml-auto w-fit">
                               <div className="font-medium text-[#f04299]">
                                 <TypewriterText
-                                  text="With all my love, Always yours 💕"
+                                  text="Con todo mi amor, siempre tuyo 💕 — Jendry"
                                   duration={2}
                                   delay={0}
                                   onComplete={() =>
@@ -326,7 +325,7 @@ export default function MessageCard({
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-24 h-24"
                             role="img"
-                            aria-label="Heart Stamp"
+                            aria-label="Sello de corazón"
                           >
                             <defs>
                               <filter
@@ -545,9 +544,9 @@ export default function MessageCard({
                             <button
                               onClick={() => setShowPlaylist(true)}
                               className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#f04299] text-white font-semibold shadow-md transition-all transform hover:scale-105 active:scale-95 hover:shadow-pink-300/50 focus:outline-none focus:ring-4 focus:ring-pink-300 cursor-pointer"
-                              aria-label="Continue to see more"
+                              aria-label="Continuar para ver más"
                             >
-                              Continue To See More ✨
+                              Continuar para ver más ✨
                             </button>
                           </div>
                         )}
