@@ -146,7 +146,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
           <div className="absolute -top-10 right-6 w-20 h-20 sm:w-24 sm:h-24 object-contain animate-bounce-slow">
             <Image
               src="/assets/intro-DzUiguR4.webp"
-              alt="Animación decorativa del día de la princesa"
+              alt="Animación decorativa del día de la novia"
               width={96}
               height={96}
               className="w-full h-full object-contain"
@@ -192,7 +192,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.4 }}
             >
               <p>
-                Quise hacer algo especial para ti en este día de la princesa, así
+                Quise hacer algo especial para ti en este día de la novia, así
                 que preparé algo hecho solo para ti...
               </p>
               <p className="pt-3">
@@ -223,7 +223,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
             >
               <Image
                 src="/assets/intro-BrJOTFFc.webp"
-                alt="Ilustración decorativa de princesa"
+                alt="Ilustración decorativa de novia"
                 width={80}
                 height={80}
                 className="w-20 h-auto object-contain"

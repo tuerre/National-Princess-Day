@@ -39,15 +39,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Feliz Día Nacional de la Princesa 👑</title>
+        <title>Feliz Día de la Novia 👑</title>
         <meta
           name="description"
-          content="Una sorpresa especial para Ishell en el Día Nacional de la Princesa: cartas, música y recuerdos llenos de amor."
+          content="Una sorpresa especial para Ishell en el Día de la Novia: cartas, música y recuerdos llenos de amor."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="Día Nacional de la Princesa, carta de amor, sorpresa romántica, Ishell, Jendry"
+          content="Día de la Novia, carta de amor, sorpresa romántica, Ishell, Jendry"
         />
         <meta name="author" content="Jendry" />
 
@@ -58,10 +58,10 @@ export default function Home() {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Feliz Día Nacional de la Princesa 👑" />
+        <meta property="og:title" content="Feliz Día de la Novia 👑" />
         <meta
           property="og:description"
-          content="Una sorpresa especial para Ishell en el Día Nacional de la Princesa: cartas, música y recuerdos llenos de amor."
+          content="Una sorpresa especial para Ishell en el Día de la Novia: cartas, música y recuerdos llenos de amor."
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta
@@ -71,7 +71,7 @@ export default function Home() {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Feliz Día Nacional de la Princesa 👑" />
+        <meta name="twitter:title" content="Feliz Día de la Novia 👑" />
         <meta
           name="twitter:description"
           content="Una sorpresa especial de Jendry para Ishell."
@@ -83,7 +83,7 @@ export default function Home() {
         <link rel="canonical" href="https://national-princess-day.vercel.app" />
       </Head>
 
-      <main className={isGiftOpened ? 'min-h-screen' : 'h-screen overflow-hidden'}>
+      <main className="h-screen overflow-hidden">
         {!isGiftOpened && (
           <Hero onOpenGift={handleOpenGift} isGiftOpened={isGiftOpened} />
         )}
