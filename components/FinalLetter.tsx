@@ -143,34 +143,33 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                   </svg>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[#1b0d14]">
-                  Final Love Letter
+                  Carta final de amor
                 </h3>
               </div>
             </div>
 
             <article className="handwriting text-sm sm:text-base text-[#1b0d14] leading-relaxed space-y-4">
               <p className="text-[#f04299] font-semibold">
-                My sweetest Cutiepie,
+                my sweetest Cutiepie,
               </p>
               <p>
-                You&apos;re the calm I reach for and the laugh that brightens my
-                day.
+                Eres la calma que siempre busco y la risa que ilumina mis días.
               </p>
               <p className="text-[#5a9bb8]">
-                I hope this tiny world made you smile — and whispered how much
-                you mean to me.
+                Espero que este pequeño mundo te haya sacado una sonrisa y te
+                haya susurrado cuánto significas para mí.
               </p>
               <p>
-                I&apos;ll keep making memories, big and small, always with you.
+                Seguiré creando recuerdos, grandes y pequeños, siempre contigo.
               </p>
               <p className="text-[#a67fb8]">
-                Forever yours, in every little universe.
+                Siempre tuyo, en cada pequeño universo. — Jendry
               </p>
             </article>
 
             <div className="mt-6 flex flex-col sm:flex-row justify-between gap-3 items-center">
               <div className="text-xs text-[#9a4c73]">
-                Sealing will finish the experience.
+                Sellar terminará la experiencia.
               </div>
               <div className="flex gap-3 relative">
                 <AnimatePresence>
@@ -201,14 +200,14 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                   disabled={isSealed}
                   className="rounded-full bg-gradient-to-r from-[#ff9aa8] to-[#ffd1dc] px-5 py-2.5 text-sm sm:text-base font-bold shadow-md hover:scale-105 transition disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
                 >
-                  {isSealed ? 'Sealed 💌' : 'Seal this Letter 💌'}
+                  {isSealed ? 'Sellada 💌' : 'Sellar esta carta 💌'}
                 </button>
                 {onRestart && (
                   <button
                     onClick={onRestart}
                     className="rounded-full bg-[#9be7c4] px-4 py-2.5 text-sm sm:text-base font-medium shadow-md hover:brightness-95 transition cursor-pointer"
                   >
-                    Restart
+                    Reiniciar
                   </button>
                 )}
               </div>

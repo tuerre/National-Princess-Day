@@ -20,7 +20,7 @@ const cards: Card[] = [
   {
     id: 1,
     image: '/assets/pic1.png',
-    message: 'I Love u Divya 💕',
+    message: 'Te amo, Ishell 💕',
     gradient: 'from-pink-200 to-purple-200',
     delay: 0,
   },
@@ -28,7 +28,7 @@ const cards: Card[] = [
     id: 2,
     image: '/assets/pic2.png',
     message:
-      "You don't even have to try — you just make everything around you feel lighter, warmer, better. ✨",
+      'Ni siquiera tienes que intentarlo; haces que todo a tu alrededor se sienta más ligero, cálido y bonito. ✨',
     gradient: 'from-blue-200 to-teal-200',
     delay: 0.2,
   },
@@ -36,7 +36,7 @@ const cards: Card[] = [
     id: 3,
     image: '/assets/pic3.png',
     message:
-      "The little things you do — your expressions, your laughter, the way you talk — they've all become my favorite details. 🌸",
+      'Las pequeñas cosas que haces, tus gestos, tu risa y tu forma de hablar, se convirtieron en mis detalles favoritos. 🌸',
     gradient: 'from-yellow-200 to-orange-200',
     delay: 0.4,
   },
@@ -126,10 +126,10 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
         <div className="flex items-center justify-center gap-2 mb-4 sm:mb-6 animate-slideDown">
           <div className="text-center">
             <h2 className="text-[#f04299] text-base sm:text-xl font-bold leading-tight">
-              Some Special Cards For You
+              Algunas tarjetas especiales para ti
             </h2>
             <div className="text-xs text-[#9a4c73] mt-0.5">
-              Click each card to reveal a special message!
+              ¡Toca cada tarjeta para revelar un mensaje especial!
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
                         />
                         <div className="absolute bottom-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                           <div className="px-2 py-1 bg-white/95 rounded-full text-xs font-medium text-[#9a4c73] border border-pink-100 shadow-lg backdrop-blur-sm animate-pulse">
-                            ✨ Tap!
+                            ✨ ¡Toca!
                           </div>
                         </div>
                         <div className="absolute top-1.5 right-1.5 w-3 h-3 animate-sparkle text-xs">
@@ -192,7 +192,7 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
                         </div>
                         <div className="pt-1">
                           <div className="px-2 py-1 bg-pink-50 rounded-full text-xs font-medium text-[#9a4c73] border border-pink-100 inline-block hover:bg-pink-100 transition-colors cursor-pointer">
-                            Tap to flip back
+                            Toca para voltear
                           </div>
                         </div>
                       </div>
@@ -206,7 +206,7 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
           {/* Progress Section */}
           <div className="text-center py-2 sm:py-3">
             <div className="text-xs sm:text-sm text-[#9a4c73] font-medium">
-              Start by tapping any card above ✨
+              Empieza tocando cualquier tarjeta de arriba ✨
             </div>
             <div className="mt-2 w-full max-w-xs mx-auto bg-pink-100 rounded-full h-1.5 overflow-hidden">
               <div
@@ -225,24 +225,24 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
             <div className="text-center space-y-3 sm:space-y-4">
               <div className="text-3xl sm:text-4xl animate-bounce">🎉</div>
               <h3 className="text-lg sm:text-xl font-bold text-[#f04299]">
-                All Messages Unlocked!
+                ¡Todos los mensajes desbloqueados!
               </h3>
               <p className="text-sm text-[#9a4c73] leading-relaxed">
-                Each message is a piece of my heart that belongs to you forever.
-                ✨
+                Cada mensaje es un pedacito de mi corazón que te pertenece por
+                siempre. ✨
               </p>
               <div className="space-y-2.5 pt-1">
                 <button
                   onClick={handleOpenFinalLetter}
                   className="w-full inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#f04299] text-white font-semibold shadow-lg transition-all transform hover:scale-105 active:scale-95 hover:shadow-pink-300/50 focus:outline-none focus:ring-4 focus:ring-pink-300 text-sm cursor-pointer"
                 >
-                  Open the Final Letter 💌
+                  Abrir la carta final 💌
                 </button>
                 <button
                   onClick={handleStayHere}
                   className="w-full text-xs text-[#9a4c73] hover:text-[#f04299] transition-colors cursor-pointer"
                 >
-                  Stay here a bit longer
+                  Quedarme aquí un poco más
                 </button>
               </div>
             </div>

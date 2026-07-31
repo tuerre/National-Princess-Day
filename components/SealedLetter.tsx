@@ -21,7 +21,7 @@ export default function SealedLetter({
 }: SealedLetterProps) {
   const [kissParticles, setKissParticles] = useState<KissParticle[]>([]);
 
-  const currentDate = new Date().toLocaleDateString('en-US', {
+  const currentDate = new Date().toLocaleDateString('es-ES', {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
@@ -139,10 +139,10 @@ export default function SealedLetter({
 
             {/* Heading */}
             <h2 className="text-2xl sm:text-3xl font-black text-[#f04299] mb-2">
-              Letter Sealed with Love
+              Carta sellada con amor
             </h2>
             <p className="text-sm sm:text-base text-[#9a4c73] mb-5">
-              I Love You Always
+              Te amo siempre, Ishell
             </p>
 
             {/* Animated Hearts */}
@@ -169,7 +169,7 @@ export default function SealedLetter({
 
             {/* Always Yours */}
             <div className="text-lg sm:text-xl font-semibold text-[#1b0d14] mb-1">
-              <span className="text-[#c0396f]">Always Yours 💕</span>
+              <span className="text-[#c0396f]">Siempre tuyo 💕 — Jendry</span>
             </div>
 
             {/* Date */}
@@ -205,14 +205,14 @@ export default function SealedLetter({
                   onClick={onExperienceAgain}
                   className="rounded-full bg-[#f04299] text-white px-5 py-2.5 text-sm sm:text-base font-semibold shadow hover:scale-105 transition cursor-pointer"
                 >
-                  Experience Again ✨
+                  Vivirlo de nuevo ✨
                 </button>
               )}
               <button
                 onClick={handleSendKiss}
                 className="rounded-full bg-[#9be7c4] px-5 py-2.5 text-sm sm:text-base font-medium shadow hover:brightness-95 transition cursor-pointer"
               >
-                Send a Virtual Kiss 💋
+                Enviar un beso virtual 💋
               </button>
             </div>
           </motion.div>
@@ -221,4 +221,3 @@ export default function SealedLetter({
     </div>
   );
 }
-

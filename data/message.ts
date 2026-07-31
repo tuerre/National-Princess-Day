@@ -1,18 +1,17 @@
 export const messageData = {
-  title: 'Happy National Princess Day 👑',
-  subtitle: 'To my favorite princess — today, and every day.',
-  body: `Hey princess,
+  title: 'Feliz Día Nacional de la Princesa 👑',
+  subtitle: 'Para mi princesa favorita: hoy y siempre.',
+  body: `Hola Ishell,
 
-I found something pretty today and it made me think of you — soft, bright, and impossible not to smile at. I wanted to celebrate you — your kindness, your laugh, the way you brighten my days.
+Hoy vi algo bonito y me hizo pensar en ti: dulce, brillante e imposible de mirar sin sonreír. Quise celebrarte por tu ternura, tu risa y la forma en que iluminas mis días.
 
-You're my queen of small things and big heart. Happy National Princess Day. 🌸
+Eres mi reina de los pequeños detalles y del corazón enorme. Feliz Día Nacional de la Princesa. 🌸
 
-— With all my love, Rushi`,
-  cta: 'Open your gift ✨',
+— Con todo mi amor, Jendry`,
+  cta: 'Abre tu regalo ✨',
   toast: {
-    copied: 'Message copied! Send it with a heart 💌',
-    error: "Couldn't copy — try again",
-    shared: 'Shared! 💕',
+    copied: '¡Mensaje copiado! Envíalo con un corazón 💌',
+    error: 'No se pudo copiar — inténtalo de nuevo',
+    shared: '¡Compartido! 💕',
   },
 };
-
