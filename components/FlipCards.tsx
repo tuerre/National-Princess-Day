@@ -34,7 +34,7 @@ const cards: Card[] = [
   },
   {
     id: 3,
-    image: '/assets/pic3.png',
+    image: '/assets/520BFE48-74AA-48F6-9087-9D42E93B6DA4.png',
     message:
       'Las pequeñas cosas que haces, tus gestos, tu risa y tu forma de hablar, se convirtieron en mis detalles favoritos. 🌸',
     gradient: 'from-yellow-200 to-orange-200',
