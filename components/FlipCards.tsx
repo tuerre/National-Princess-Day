@@ -26,7 +26,7 @@ const cards: Card[] = [
   },
   {
     id: 2,
-    image: '/assets/pic2.png',
+    image: '/assets/5CB007BB-1D20-4FE0-9973-7D5C6EF18580.png',
     message:
       'Ni siquiera tienes que intentarlo; haces que todo a tu alrededor se sienta más ligero, cálido y bonito. ✨',
     gradient: 'from-blue-200 to-teal-200',
