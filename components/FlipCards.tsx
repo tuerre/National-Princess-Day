@@ -20,7 +20,7 @@ const cards: Card[] = [
   {
     id: 1,
     image: '/assets/F75667AA-B522-49A4-B1B1-68937E5FFCA7.png',
-    message: 'Eres el palito blanco de mi Nutella, mi estrellita. Te amo con mi vida, siempre seré el mejor para ti, haces erizar mi piel sin rozarla. 💕',
+    message: 'Eres el palito blanco de mi nutella, mi estrellita. Te amo con mi vida, siempre seré el mejor para ti, haces erizar mi piel sin rozarla. 💕',
     gradient: 'from-pink-200 to-purple-200',
     delay: 0,
   },
