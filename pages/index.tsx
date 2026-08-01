@@ -63,7 +63,10 @@ export default function Home() {
           property="og:description"
           content="Una sorpresa especial para Ishell en el Día de la Novia: cartas, música y recuerdos llenos de amor."
         />
-        <meta property="og:image" content="/og-image.jpg" />
+        <meta
+          property="og:image"
+          content="/assets/d27c62da-64ce-4244-9419-dab91c3ebf48.jpeg"
+        />
         <meta
           property="og:url"
           content="https://national-princess-day.vercel.app"
@@ -76,7 +79,10 @@ export default function Home() {
           name="twitter:description"
           content="Una sorpresa especial de Jendry para Ishell."
         />
-        <meta name="twitter:image" content="/og-image.jpg" />
+        <meta
+          name="twitter:image"
+          content="/assets/d27c62da-64ce-4244-9419-dab91c3ebf48.jpeg"
+        />
 
         {/* Additional SEO */}
         <meta name="theme-color" content="#fff8e7" />
